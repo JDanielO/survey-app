@@ -1,5 +1,5 @@
 const express = require("express");
-const monfoose = require("mongoose");
+const mongoose = require("mongoose");
 const keys = require("./config/keys");
 require("./services/passport");
 
