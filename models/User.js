@@ -1,5 +1,5 @@
-const moongoose = require("mongoose");
-const { Schema } = moongoose;
+const mongoose = require("mongoose");
+const { Schema } = mongoose;
 
 const userSchema = new Schema({
   googleId: String,
