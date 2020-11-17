@@ -1,20 +1,54 @@
 import React, { Component } from "react";
+import { connect } from "react-redux";
 
 class Header extends Component {
+  renderContent() {
+    switch (this.props.auth) {
+      case null:
+        return "Still deciding";
+      case false:
+        return (
+          <li>
+            <a href="/auth/google">Login With Google</a>
+          </li>
+        );
+      default:
+        return (
+          <li>
+            <a>Logout</a>
+          </li>
+        );
+    }
+  }
+
   render() {
     return (
       <nav>
         <div className="nav-wrapper">
           <a className="left brand-logo">Emaily</a>
-          <ul className="right">
-            <li>
-              <a>Login With Google</a>
-            </li>
-          </ul>
+          <ul className="right"> {this.renderContent()}</ul>
         </div>
       </nav>
     );
   }
 }
 
-export default Header;
+function mapStateToProps({ auth }) {
+  return { auth };
+}
+export default connect(mapStateToProps)(Header);
+
+/*
+Hooking up a Component to the Redux store:
+- import the connect helper from 'react-redux'. Set it up at the bottom of the file.
+- define the mapStateToProps function.
+- pull of the little pieces of state that we actually care about in this Component.
+
+
+
+
+
+
+
+
+*/
