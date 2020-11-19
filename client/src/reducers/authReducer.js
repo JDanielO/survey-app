@@ -8,3 +8,11 @@ export default function (state = null, action) {
       return state;
   }
 }
+
+/*
+    const authReducer = (state = null, action) => {
+        ...
+      }
+    };
+    export default authReducer;
+    */
