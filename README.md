@@ -1,7 +1,5 @@
 # survey-app
-Feedback App built with ReactJS, Redux, Express, &amp; Node
-
-Fullstack app built using React, Redux, Node, Express, MongoDB, Google OAuth (& cookie-based authentication), PassportJS, MongooseJS, JavaScript, HMTL5 (& JSX), AND CSS.
+Feedback collection fullstack app built using React JS, Redux, Node, Express, MongoDB, Google OAuth (& cookie-based authentication), PassportJS, MongooseJS, JavaScript, HMTL5 (& JSX), &amp; CSS.
 
 Features:
 * Allows users to send surveys to collect feedback from customers
