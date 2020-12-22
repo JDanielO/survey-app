@@ -1,13 +1,10 @@
-Feedback App
+# survey-app
 
-This is a fullstack (MERN) app built using React, Redux, Node, Express, Google OAuth (with cookie-based authentication), PassportJS, MongooseJS, Materialize CSS, and MongoDB (using mLab and AWS for remote database hosting) for collecting feedback. In addition, it uses SendGrid for sending emails, and payment handling via Stripe. Webhooks are handled with localtunnel. Guidance for building this app and understanding the concepts behind each component came from Stephen Grider's Udemy course.
+Feedback collection fullstack app built using React JS, Redux, Node, Express, MongoDB, Google OAuth (& cookie-based authentication), PassportJS, MongooseJS, JavaScript, HMTL5 (& JSX), &amp; CSS.
 
-The React front-end components were built using the create-react-app.
+Features:
 
-To get the app up and running, follow these steps:
-
-    cd FeedbackApp
-    npm install
-    npm run dev
-
-A live version of the app can be seen here.
+- Allows users to send surveys to collect feedback from customers
+- Google OAuth authentication
+- Ability to accept and process credit card payments from users
+- Survey Creation
