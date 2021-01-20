@@ -9,4 +9,4 @@ Features:
 - Ability to accept and process credit card payments from users
 - Survey Creation
 
-...
+For a Live Version of the App: Ask / contact me and I will provide a link !
